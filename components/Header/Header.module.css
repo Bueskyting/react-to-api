@@ -1,0 +1,28 @@
+.header {
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 12%, rgba(0,212,255,1) 56%, rgba(2,0,36,1) 92%);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.navLinks {
+  filter: blur(2px);
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 1.5rem;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.navLinks:hover {
+  filter: blur(0px);
+}
